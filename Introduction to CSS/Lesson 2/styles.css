@@ -20,7 +20,11 @@ html, body {
     padding: 0;
     min-height: 100%;
 }
-
+.footer-nav img {
+    width: 40px; /* Adjust width as needed */
+    height: 40px; /* Adjust height as needed */
+    object-fit: contain; /* Ensures the image keeps its aspect ratio */
+}
 .nav ul {
     margin: 0;
 }
